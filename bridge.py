@@ -10,7 +10,7 @@ import libroll as lib
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Bridge eth from L1 to L2.')
+    parser = argparse.ArgumentParser(description='Bridge eth from L5 to L7.')
     parser.add_argument('--private-key', type=str, default=None,
                         help='Private key for the transaction.')
     parser.add_argument('--account', type=str, default=None,
